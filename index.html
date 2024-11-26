@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infa-Air-Conditioner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
+</head>
+
+<body>
+    <!-------This-----Is------------Header----------Section--------------------->
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <p>INFA<span>AIR</span><span id="nav-logo2">CONDITIONER</span></p>
+            </div>
+            <div class="nav-content">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Spares</a></li>
+                    <li><a href="">Air-Conditioner</a></li>
+                    <li><a href="form.html">Contact-Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-------This-----Is------------Header----------Section--------------------->
+    <!-------This-----Is------------Main----------Section--------------------->
+    <main>
+        <div class="slideshow-container">
+            <div class="slides fade">
+              <img src="bg-images/slide-1.jpg" alt="Image 1">
+            </div>
+            <div class="slides fade">
+              <img src="bg-images/slide-2.jpg" alt="Image 2">
+            </div>
+            <div class="slides fade">
+                <img src="bg-images/slide-3.jpg" alt="Image 3">
+            </div>
+            <div class="slides fade">
+              <img src="bg-images/slide-4.jpg" alt="Image 4">
+            </div>
+        
+            <!-- Dots Navigation -->
+            <div class="dots-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+          </div>
+          <div class="content-1">
+                <h1>Assured Air Conditioner Services</h1>
+                <p>Daikin offers a wide range of AC repair and maintenance services at Special Discounts!</p>
+          </div>
+          <div class="seller-1">
+            <div class="image-card">
+                <img src="images/ac-service.png" alt="Ac-Service">
+                <h3>Ac servicing</h3>
+                <p>Rs.499.00</p>
+                <span>Upto 20% Off</span>
+            </div>
+            <div class="image-card">
+                <img src="images/installaing.jpg" alt="Ac-Service">
+                <h3>Installing/Removal</h3>
+                <p>Rs.799.00</p>
+                <span>Upto 20% Off</span>
+            </div>
+            <div class="image-card">
+                <img src="images/gascharge.jpg" alt="Ac-Service">
+                <h3>Gas Charge</h3>
+                <p>Rs.2499.00</p>
+                <span>Upto 20% Off</span>
+            </div>
+            <div class="image-card">
+                <img src="images/accoolingcoil.jpg" alt="Ac-Service">
+                <h3>Ac servicing</h3>
+                <p>Rs.799.00</p>
+                <span>Upto 20% Off</span>
+            </div>
+          </div>
+          <div class="container-form">
+            <div class="requirement-content">
+                <h1>Get a Free AC Repair & Servicing Quote Now</h1>
+                <p>Hassle-Free service by verified Infa Air Conditioner professionals, on your own convenient time-slot!</p>
+                <button type="button">Call Now 1800 019 425</button>
+            </div>
+            <div class="form-f1">
+                <form id="acRequirementForm">
+                    <h3>Fill In Your AC Requirement</h3>
+                    <input type="text" id="name" placeholder="Enter Your Full Name" required>
+                    <input type="number" id="phone" placeholder="Enter Your Phone Number" required>
+                    <input type="text" id="city" placeholder="Enter Your City" required>
+                    <input type="number" id="pincode" placeholder="Enter Pincode (Optional)">
+                    <select id="service" required>
+                      <option disabled selected value>Select a Service</option>
+                      <option value="normal-service">Normal Inspection/Servicing</option>
+                      <option value="gascharge">Gas Charge</option>
+                      <option value="installation">Installation/Uninstall</option>
+                      <option value="notworking">AC Not Working</option>
+                      <option value="noiseissue">Noise Issue</option>
+                      <option value="bad-smell">Bad Smell</option>
+                      <option value="other">Other</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                  </form>
+                  
+                  <div id="alertBox" style="display: none; padding: 10px; margin-top: 15px; border-radius: 5px;"></div>
+                  
+            </div>
+          </div>
+          <div class="content-2container">
+            <h1>Why Choose Daikin For AC Repair</h1>
+            <p>As a prominent name in the repair industry, we provide best-in-class AC repair and service <br> with our highly-skilled technicians, quality parts, and latest tools & technologies</p>
+          </div>
+          <div class="box-area1">
+            <div class="box">
+              <img src="icons/certifiedtechnician.png" alt="Certified Technician">
+              <h4>Certified Technicians</h4>
+              <p>All AC technicians at Infa Air Conditioner are certified and well-trained who are proficient to repair your AC impeccably.</p>
+            </div>
+            <div class="box">
+              <img src="icons/onetimerepairservice.png" alt="On-time Service">
+              <h4>On-time Repair Service</h4>
+              <p>We value your time and adhere to the promised timeline. Be it for inquiry response or service delivery.</p>
+            </div>
+            <div class="box">
+              <img src="icons/transparentprice.png" alt="Transparent Prices">
+              <h4>Transparent Prices</h4>
+              <p>We offer transparent pricing for major AC repair services. So you can rest assured to be charged fairly.</p>
+            </div>
+            <div class="box">
+              <img src="icons/hasslefreeprocess.png" alt="Hassle-Free Process">
+              <h4>Hassle-Free Process</h4>
+              <p>You can make an online appointment to get technicians at your doorstep for a hassle-free repair service.</p>
+            </div>
+            <div class="box">
+              <img src="icons/30-days-service-warranty.png" alt="Service Warranty">
+              <h4>30 Days Service Warranty</h4>
+              <p>We aim to provide our customers with complete satisfaction, offering a service warranty of 30 days.</p>
+            </div>
+            <div class="box">
+              <img src="icons/service-center.png" alt="Customer Support">
+              <h4>Prompt Customer Support</h4>
+              <p>You can contact us through our hotline number or online channels for prompt and personalized support.</p>
+            </div>
+          </div>
+          <div class="aboutme">
+            <div class="img-me">
+              <img src="images/daikin-ac-service-repair.png" alt="service">
+            </div>
+            <div class="text-me">
+              <h3>Daikin AC Repair and Servicing</h3>
+              <p>
+                At Infa Air Conditioner, we provide a comprehensive range of air conditioner services, including Air conditioner repair, AC installation/removal, AC servicing, aircon servicing, AC gas filling charges, leakage repair, advanced piping, and more — all available at affordable and transparent prices.
+              </p>
+              <p>
+                Besides, you can book our AC services from the comfort of your home. You just need to give us a call or send us your query to book our professional AC repair services within minutes. Whether the issue is big or small, our professionals will provide doorstep repair solutions at the promised time. Our 30-day service warranty further assures you that you’ll get the best value for your money.
+              </p>
+            </div>
+          </div>          
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>
+              Our Location
+            </h3>
+            <p>
+              South Tukoganj,<br />
+              59,Trade Center<br />
+              Near Kanchan Bagh,<br />
+              Indore Madhya Pradesh 452001
+            </p>
+            <div class="social-icons">
+              <a href="#"><img src="icons/fb-icon.png" alt="Facebook"></a>
+              <a href="#"><img src="icons/twitter-icon.png" alt="Facebook"></i></a>
+              <a href="#"><img src="icons/instagram-icon.png" alt="Facebook"></a>
+              <a href="#"><img src="icons/twitter-icon.png" alt="Facebook"></a>
+              <a href="#"><img src="icons/youtube-icon.png" alt="Facebook"></a>
+            </div>
+          </div>
+      
+          <div class="footer-column">
+            <h4>SERVICE FOR</h4>
+            <ul>
+              <li><a href="#">Air Conditioner Repair</a></li>
+              <li><a href="#">Service Center</a></li>
+              <li><a href="#">Warranty Check</a></li>
+              <li><a href="#">Repair Status</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Daikin Contact</h4>
+            <p>Toll-Free: 1800-102-9300</p>
+            <p>WhatsApp: +91 9310423141</p>
+            <p>Email: <a href="mailto:service.customerservice@daikinindia.com">service.customerservice@daikinindia.com</a></p>
+          </div>
+          <div class="footer-column">
+            <h4>Service Center "Infa Air Conditioner"</h4>
+            <p>Landline: 07314904491</p>
+            <p>WhatsApp: +919713995804</p>
+            <p>Email: <a href="mailto:infaairconditioning59@gmail.com">infaairconditioning59@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            Privacy Policy | Terms of Use | Copyright © 2025 <span>Infa Air Conditioner</span>  Inc. All Rights Reserved.
+          </p>
+          <div class="country">
+            <span>India</span>
+          </div>
+        </div>
+      </footer>
+      
+    <!-------This-----Is------------Header----------Section--------------------->
+    <script src="javascript/script.js"></script>
+    <script src="javascript/datasend.js"></script>
+</body>
+</html>
